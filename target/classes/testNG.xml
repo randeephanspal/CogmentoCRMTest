@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Cogmento CRM Test Automation Test Suite" thread-count="1">
+
+
+    <listeners>
+        <listener class-name="com.qa.ExtentReportListener.ExtentReporterNG" />
+    </listeners>
+
+    <test name="Cogmento CRM Test cases">
+    <classes>
+        <class name="com.crm.qa.test.LoginPageTest"></class>
+        <class name="com.crm.qa.test.HomePageTest"></class>
+        <class name="com.crm.qa.test.ContactPageTest"></class>
+    </classes>
+</test>
+</suite>
